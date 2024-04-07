@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA97E3622BC30BD400933532 /* FocusTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA97E3612BC30BD400933532 /* FocusTVApp.swift */; };
+		FA97E3642BC30BD400933532 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA97E3632BC30BD400933532 /* ContentView.swift */; };
+		FA97E3662BC30BD600933532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA97E3652BC30BD600933532 /* Assets.xcassets */; };
+		FA97E3692BC30BD600933532 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA97E3682BC30BD600933532 /* Preview Assets.xcassets */; };
+		FA97E3732BC30BD700933532 /* FocusTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA97E3722BC30BD700933532 /* FocusTVTests.swift */; };
+		FA97E37D2BC30BD700933532 /* FocusTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA97E37C2BC30BD700933532 /* FocusTVUITests.swift */; };
+		FA97E37F2BC30BD700933532 /* FocusTVUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA97E37E2BC30BD700933532 /* FocusTVUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA97E36F2BC30BD700933532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA97E3562BC30BD400933532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA97E35D2BC30BD400933532;
+			remoteInfo = FocusTV;
+		};
+		FA97E3792BC30BD700933532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA97E3562BC30BD400933532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA97E35D2BC30BD400933532;
+			remoteInfo = FocusTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA97E35E2BC30BD400933532 /* FocusTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA97E3612BC30BD400933532 /* FocusTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTVApp.swift; sourceTree = "<group>"; };
+		FA97E3632BC30BD400933532 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA97E3652BC30BD600933532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA97E3682BC30BD600933532 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA97E36E2BC30BD700933532 /* FocusTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocusTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA97E3722BC30BD700933532 /* FocusTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTVTests.swift; sourceTree = "<group>"; };
+		FA97E3782BC30BD700933532 /* FocusTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocusTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA97E37C2BC30BD700933532 /* FocusTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTVUITests.swift; sourceTree = "<group>"; };
+		FA97E37E2BC30BD700933532 /* FocusTVUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTVUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA97E35B2BC30BD400933532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA97E36B2BC30BD700933532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA97E3752BC30BD700933532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA97E3552BC30BD400933532 = {
+			isa = PBXGroup;
+			children = (
+				FA97E3602BC30BD400933532 /* FocusTV */,
+				FA97E3712BC30BD700933532 /* FocusTVTests */,
+				FA97E37B2BC30BD700933532 /* FocusTVUITests */,
+				FA97E35F2BC30BD400933532 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA97E35F2BC30BD400933532 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA97E35E2BC30BD400933532 /* FocusTV.app */,
+				FA97E36E2BC30BD700933532 /* FocusTVTests.xctest */,
+				FA97E3782BC30BD700933532 /* FocusTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA97E3602BC30BD400933532 /* FocusTV */ = {
+			isa = PBXGroup;
+			children = (
+				FA97E3612BC30BD400933532 /* FocusTVApp.swift */,
+				FA97E3632BC30BD400933532 /* ContentView.swift */,
+				FA97E3652BC30BD600933532 /* Assets.xcassets */,
+				FA97E3672BC30BD600933532 /* Preview Content */,
+			);
+			path = FocusTV;
+			sourceTree = "<group>";
+		};
+		FA97E3672BC30BD600933532 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA97E3682BC30BD600933532 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA97E3712BC30BD700933532 /* FocusTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA97E3722BC30BD700933532 /* FocusTVTests.swift */,
+			);
+			path = FocusTVTests;
+			sourceTree = "<group>";
+		};
+		FA97E37B2BC30BD700933532 /* FocusTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA97E37C2BC30BD700933532 /* FocusTVUITests.swift */,
+				FA97E37E2BC30BD700933532 /* FocusTVUITestsLaunchTests.swift */,
+			);
+			path = FocusTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA97E35D2BC30BD400933532 /* FocusTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA97E3822BC30BD700933532 /* Build configuration list for PBXNativeTarget "FocusTV" */;
+			buildPhases = (
+				FA97E35A2BC30BD400933532 /* Sources */,
+				FA97E35B2BC30BD400933532 /* Frameworks */,
+				FA97E35C2BC30BD400933532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FocusTV;
+			productName = FocusTV;
+			productReference = FA97E35E2BC30BD400933532 /* FocusTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA97E36D2BC30BD700933532 /* FocusTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA97E3852BC30BD700933532 /* Build configuration list for PBXNativeTarget "FocusTVTests" */;
+			buildPhases = (
+				FA97E36A2BC30BD700933532 /* Sources */,
+				FA97E36B2BC30BD700933532 /* Frameworks */,
+				FA97E36C2BC30BD700933532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA97E3702BC30BD700933532 /* PBXTargetDependency */,
+			);
+			name = FocusTVTests;
+			productName = FocusTVTests;
+			productReference = FA97E36E2BC30BD700933532 /* FocusTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA97E3772BC30BD700933532 /* FocusTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA97E3882BC30BD700933532 /* Build configuration list for PBXNativeTarget "FocusTVUITests" */;
+			buildPhases = (
+				FA97E3742BC30BD700933532 /* Sources */,
+				FA97E3752BC30BD700933532 /* Frameworks */,
+				FA97E3762BC30BD700933532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA97E37A2BC30BD700933532 /* PBXTargetDependency */,
+			);
+			name = FocusTVUITests;
+			productName = FocusTVUITests;
+			productReference = FA97E3782BC30BD700933532 /* FocusTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA97E3562BC30BD400933532 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FA97E35D2BC30BD400933532 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					FA97E36D2BC30BD700933532 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FA97E35D2BC30BD400933532;
+					};
+					FA97E3772BC30BD700933532 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FA97E35D2BC30BD400933532;
+					};
+				};
+			};
+			buildConfigurationList = FA97E3592BC30BD400933532 /* Build configuration list for PBXProject "FocusTV" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA97E3552BC30BD400933532;
+			productRefGroup = FA97E35F2BC30BD400933532 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA97E35D2BC30BD400933532 /* FocusTV */,
+				FA97E36D2BC30BD700933532 /* FocusTVTests */,
+				FA97E3772BC30BD700933532 /* FocusTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA97E35C2BC30BD400933532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA97E3692BC30BD600933532 /* Preview Assets.xcassets in Resources */,
+				FA97E3662BC30BD600933532 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA97E36C2BC30BD700933532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA97E3762BC30BD700933532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA97E35A2BC30BD400933532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA97E3642BC30BD400933532 /* ContentView.swift in Sources */,
+				FA97E3622BC30BD400933532 /* FocusTVApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA97E36A2BC30BD700933532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA97E3732BC30BD700933532 /* FocusTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA97E3742BC30BD700933532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA97E37D2BC30BD700933532 /* FocusTVUITests.swift in Sources */,
+				FA97E37F2BC30BD700933532 /* FocusTVUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA97E3702BC30BD700933532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA97E35D2BC30BD400933532 /* FocusTV */;
+			targetProxy = FA97E36F2BC30BD700933532 /* PBXContainerItemProxy */;
+		};
+		FA97E37A2BC30BD700933532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA97E35D2BC30BD400933532 /* FocusTV */;
+			targetProxy = FA97E3792BC30BD700933532 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA97E3802BC30BD700933532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 16.1;
+			};
+			name = Debug;
+		};
+		FA97E3812BC30BD700933532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 16.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA97E3832BC30BD700933532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FocusTV/Preview Content\"";
+				DEVELOPMENT_TEAM = BDMB887655;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CoccoaHeads.FocusTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		FA97E3842BC30BD700933532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FocusTV/Preview Content\"";
+				DEVELOPMENT_TEAM = BDMB887655;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CoccoaHeads.FocusTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		FA97E3862BC30BD700933532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BDMB887655;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CoccoaHeads.FocusTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FocusTV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FocusTV";
+				TVOS_DEPLOYMENT_TARGET = 16.1;
+			};
+			name = Debug;
+		};
+		FA97E3872BC30BD700933532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BDMB887655;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CoccoaHeads.FocusTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FocusTV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FocusTV";
+				TVOS_DEPLOYMENT_TARGET = 16.1;
+			};
+			name = Release;
+		};
+		FA97E3892BC30BD700933532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BDMB887655;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CoccoaHeads.FocusTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = FocusTV;
+			};
+			name = Debug;
+		};
+		FA97E38A2BC30BD700933532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BDMB887655;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CoccoaHeads.FocusTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = FocusTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA97E3592BC30BD400933532 /* Build configuration list for PBXProject "FocusTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA97E3802BC30BD700933532 /* Debug */,
+				FA97E3812BC30BD700933532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA97E3822BC30BD700933532 /* Build configuration list for PBXNativeTarget "FocusTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA97E3832BC30BD700933532 /* Debug */,
+				FA97E3842BC30BD700933532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA97E3852BC30BD700933532 /* Build configuration list for PBXNativeTarget "FocusTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA97E3862BC30BD700933532 /* Debug */,
+				FA97E3872BC30BD700933532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA97E3882BC30BD700933532 /* Build configuration list for PBXNativeTarget "FocusTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA97E3892BC30BD700933532 /* Debug */,
+				FA97E38A2BC30BD700933532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA97E3562BC30BD400933532 /* Project object */;
+}
