@@ -1,0 +1,18 @@
+{
+  "images" : [
+    {
+      "filename" : "Group-2.svg",
+      "idiom" : "tv",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Group-2 1.svg",
+      "idiom" : "tv",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

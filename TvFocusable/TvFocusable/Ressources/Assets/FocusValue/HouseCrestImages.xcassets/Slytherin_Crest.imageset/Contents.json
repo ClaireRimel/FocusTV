@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Slytherin_Crest.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

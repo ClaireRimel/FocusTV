@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFAA4CA42C0F38D70045610A /* TvFocusableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAA4CA32C0F38D70045610A /* TvFocusableApp.swift */; };
+		DFAA4CA62C0F38D70045610A /* FocusSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAA4CA52C0F38D70045610A /* FocusSectionView.swift */; };
+		DFAA4CA82C0F38D80045610A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFAA4CA72C0F38D80045610A /* Assets.xcassets */; };
+		DFAA4CAB2C0F38D80045610A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFAA4CAA2C0F38D80045610A /* Preview Assets.xcassets */; };
+		DFAA4CB32C0F3BC60045610A /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAA4CB22C0F3BC60045610A /* CustomButtonStyle.swift */; };
+		DFC48E972C0FB195008FEFAC /* TabManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC48E962C0FB195008FEFAC /* TabManager.swift */; };
+		DFC48E9C2C0FB2D5008FEFAC /* FocusedValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC48E9B2C0FB2D5008FEFAC /* FocusedValueView.swift */; };
+		DFC48E9F2C0FCA37008FEFAC /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFC48E9E2C0FCA37008FEFAC /* Colors.xcassets */; };
+		DFC48EA32C0FD1ED008FEFAC /* FocusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC48EA22C0FD1ED008FEFAC /* FocusableView.swift */; };
+		DFC48EAB2C0FD54E008FEFAC /* CenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC48EAA2C0FD54E008FEFAC /* CenterView.swift */; };
+		DFC48EAF2C0FDA7B008FEFAC /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC48EAE2C0FDA7B008FEFAC /* BottomView.swift */; };
+		DFC48EB52C108EE7008FEFAC /* HouseCrestImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFC48EB42C108EE7008FEFAC /* HouseCrestImages.xcassets */; };
+		DFC48EB82C108F6F008FEFAC /* FocusedValues+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC48EB72C108F6F008FEFAC /* FocusedValues+Extensions.swift */; };
+		DFC48EBA2C108FB7008FEFAC /* FocusedValueKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC48EB92C108FB7008FEFAC /* FocusedValueKeys.swift */; };
+		DFC48EBC2C109012008FEFAC /* HogwartsHouses.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC48EBB2C109012008FEFAC /* HogwartsHouses.swift */; };
+		DFC48EC02C10911E008FEFAC /* HouseCrestColors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFC48EBF2C10911E008FEFAC /* HouseCrestColors.xcassets */; };
+		DFC48EC32C1097DD008FEFAC /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC48EC22C1097DD008FEFAC /* BackgroundView.swift */; };
+		DFC48EC82C10A86A008FEFAC /* HogwartsHouseVisuals.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC48EC72C10A86A008FEFAC /* HogwartsHouseVisuals.swift */; };
+		DFC48ECB2C10AD00008FEFAC /* FocusCookBookVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC48ECA2C10AD00008FEFAC /* FocusCookBookVideo.swift */; };
+		DFC48ECD2C10AD1E008FEFAC /* focus_cookbook_mac.mov in Resources */ = {isa = PBXBuildFile; fileRef = DFC48ECC2C10AD1E008FEFAC /* focus_cookbook_mac.mov */; };
+		DFC48ED02C10B8B5008FEFAC /* ButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC48ECF2C10B8B5008FEFAC /* ButtonType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DFAA4CA02C0F38D70045610A /* TvFocusable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TvFocusable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFAA4CA32C0F38D70045610A /* TvFocusableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvFocusableApp.swift; sourceTree = "<group>"; };
+		DFAA4CA52C0F38D70045610A /* FocusSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSectionView.swift; sourceTree = "<group>"; };
+		DFAA4CA72C0F38D80045610A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFAA4CAA2C0F38D80045610A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFAA4CB22C0F3BC60045610A /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
+		DFC48E962C0FB195008FEFAC /* TabManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabManager.swift; sourceTree = "<group>"; };
+		DFC48E9B2C0FB2D5008FEFAC /* FocusedValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusedValueView.swift; sourceTree = "<group>"; };
+		DFC48E9E2C0FCA37008FEFAC /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		DFC48EA22C0FD1ED008FEFAC /* FocusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusableView.swift; sourceTree = "<group>"; };
+		DFC48EAA2C0FD54E008FEFAC /* CenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterView.swift; sourceTree = "<group>"; };
+		DFC48EAE2C0FDA7B008FEFAC /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
+		DFC48EB22C0FE0BC008FEFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DFC48EB42C108EE7008FEFAC /* HouseCrestImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = HouseCrestImages.xcassets; sourceTree = "<group>"; };
+		DFC48EB72C108F6F008FEFAC /* FocusedValues+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FocusedValues+Extensions.swift"; sourceTree = "<group>"; };
+		DFC48EB92C108FB7008FEFAC /* FocusedValueKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusedValueKeys.swift; sourceTree = "<group>"; };
+		DFC48EBB2C109012008FEFAC /* HogwartsHouses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogwartsHouses.swift; sourceTree = "<group>"; };
+		DFC48EBF2C10911E008FEFAC /* HouseCrestColors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = HouseCrestColors.xcassets; sourceTree = "<group>"; };
+		DFC48EC22C1097DD008FEFAC /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		DFC48EC72C10A86A008FEFAC /* HogwartsHouseVisuals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogwartsHouseVisuals.swift; sourceTree = "<group>"; };
+		DFC48ECA2C10AD00008FEFAC /* FocusCookBookVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusCookBookVideo.swift; sourceTree = "<group>"; };
+		DFC48ECC2C10AD1E008FEFAC /* focus_cookbook_mac.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = focus_cookbook_mac.mov; sourceTree = "<group>"; };
+		DFC48ECF2C10B8B5008FEFAC /* ButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonType.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFAA4C9D2C0F38D70045610A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFAA4C972C0F38D70045610A = {
+			isa = PBXGroup;
+			children = (
+				DFAA4CA22C0F38D70045610A /* TvFocusable */,
+				DFAA4CA12C0F38D70045610A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFAA4CA12C0F38D70045610A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFAA4CA02C0F38D70045610A /* TvFocusable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFAA4CA22C0F38D70045610A /* TvFocusable */ = {
+			isa = PBXGroup;
+			children = (
+				DFC48EB22C0FE0BC008FEFAC /* Info.plist */,
+				DFAA4CA92C0F38D80045610A /* Preview Content */,
+				DFC48E9D2C0FCA15008FEFAC /* Ressources */,
+				DFC48EA42C0FD216008FEFAC /* TabBarSectionsView */,
+				DFC48E9A2C0FB20A008FEFAC /* TabManager */,
+				DFAA4CA32C0F38D70045610A /* TvFocusableApp.swift */,
+			);
+			path = TvFocusable;
+			sourceTree = "<group>";
+		};
+		DFAA4CA92C0F38D80045610A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DFAA4CAA2C0F38D80045610A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DFAA4CB12C0F3BB40045610A /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				DFAA4CB22C0F3BC60045610A /* CustomButtonStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		DFC48E9A2C0FB20A008FEFAC /* TabManager */ = {
+			isa = PBXGroup;
+			children = (
+				DFC48E962C0FB195008FEFAC /* TabManager.swift */,
+			);
+			path = TabManager;
+			sourceTree = "<group>";
+		};
+		DFC48E9D2C0FCA15008FEFAC /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				DFC48EC62C10A85B008FEFAC /* Models */,
+				DFC48EBD2C10901C008FEFAC /* Enum */,
+				DFC48EB62C108F5C008FEFAC /* Extensions */,
+				DFC48EA62C0FD25C008FEFAC /* Assets */,
+				DFAA4CB12C0F3BB40045610A /* Styles */,
+				DFC48EA72C0FD273008FEFAC /* Tools */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		DFC48EA42C0FD216008FEFAC /* TabBarSectionsView */ = {
+			isa = PBXGroup;
+			children = (
+				DFC48EA82C0FD51A008FEFAC /* 1 - FocusSection */,
+				DFC48EC92C10A9A6008FEFAC /* 2 - Focusable */,
+				DFC48EB32C108A06008FEFAC /* 3 - FocusedValue */,
+			);
+			path = TabBarSectionsView;
+			sourceTree = "<group>";
+		};
+		DFC48EA62C0FD25C008FEFAC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DFC48ECC2C10AD1E008FEFAC /* focus_cookbook_mac.mov */,
+				DFAA4CA72C0F38D80045610A /* Assets.xcassets */,
+				DFC48E9E2C0FCA37008FEFAC /* Colors.xcassets */,
+				DFC48EBE2C1090D9008FEFAC /* FocusValue */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		DFC48EA72C0FD273008FEFAC /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				DFC48EB92C108FB7008FEFAC /* FocusedValueKeys.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		DFC48EA82C0FD51A008FEFAC /* 1 - FocusSection */ = {
+			isa = PBXGroup;
+			children = (
+				DFC48EA92C0FD523008FEFAC /* Subviews */,
+				DFAA4CA52C0F38D70045610A /* FocusSectionView.swift */,
+			);
+			path = "1 - FocusSection";
+			sourceTree = "<group>";
+		};
+		DFC48EA92C0FD523008FEFAC /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				DFC48EAA2C0FD54E008FEFAC /* CenterView.swift */,
+				DFC48EAE2C0FDA7B008FEFAC /* BottomView.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		DFC48EB32C108A06008FEFAC /* 3 - FocusedValue */ = {
+			isa = PBXGroup;
+			children = (
+				DFC48EC12C1097BC008FEFAC /* Subviews */,
+				DFC48E9B2C0FB2D5008FEFAC /* FocusedValueView.swift */,
+			);
+			path = "3 - FocusedValue";
+			sourceTree = "<group>";
+		};
+		DFC48EB62C108F5C008FEFAC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DFC48EB72C108F6F008FEFAC /* FocusedValues+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DFC48EBD2C10901C008FEFAC /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				DFC48EBB2C109012008FEFAC /* HogwartsHouses.swift */,
+				DFC48ECF2C10B8B5008FEFAC /* ButtonType.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		DFC48EBE2C1090D9008FEFAC /* FocusValue */ = {
+			isa = PBXGroup;
+			children = (
+				DFC48EB42C108EE7008FEFAC /* HouseCrestImages.xcassets */,
+				DFC48EBF2C10911E008FEFAC /* HouseCrestColors.xcassets */,
+			);
+			path = FocusValue;
+			sourceTree = "<group>";
+		};
+		DFC48EC12C1097BC008FEFAC /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				DFC48EC22C1097DD008FEFAC /* BackgroundView.swift */,
+				DFC48ECA2C10AD00008FEFAC /* FocusCookBookVideo.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		DFC48EC62C10A85B008FEFAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DFC48EC72C10A86A008FEFAC /* HogwartsHouseVisuals.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DFC48EC92C10A9A6008FEFAC /* 2 - Focusable */ = {
+			isa = PBXGroup;
+			children = (
+				DFC48EA22C0FD1ED008FEFAC /* FocusableView.swift */,
+			);
+			path = "2 - Focusable";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFAA4C9F2C0F38D70045610A /* TvFocusable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFAA4CAE2C0F38D80045610A /* Build configuration list for PBXNativeTarget "TvFocusable" */;
+			buildPhases = (
+				DFAA4C9C2C0F38D70045610A /* Sources */,
+				DFAA4C9D2C0F38D70045610A /* Frameworks */,
+				DFAA4C9E2C0F38D70045610A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TvFocusable;
+			productName = TvFocusable;
+			productReference = DFAA4CA02C0F38D70045610A /* TvFocusable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFAA4C982C0F38D70045610A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					DFAA4C9F2C0F38D70045610A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = DFAA4C9B2C0F38D70045610A /* Build configuration list for PBXProject "TvFocusable" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFAA4C972C0F38D70045610A;
+			productRefGroup = DFAA4CA12C0F38D70045610A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFAA4C9F2C0F38D70045610A /* TvFocusable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFAA4C9E2C0F38D70045610A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC48ECD2C10AD1E008FEFAC /* focus_cookbook_mac.mov in Resources */,
+				DFC48EB52C108EE7008FEFAC /* HouseCrestImages.xcassets in Resources */,
+				DFAA4CAB2C0F38D80045610A /* Preview Assets.xcassets in Resources */,
+				DFAA4CA82C0F38D80045610A /* Assets.xcassets in Resources */,
+				DFC48E9F2C0FCA37008FEFAC /* Colors.xcassets in Resources */,
+				DFC48EC02C10911E008FEFAC /* HouseCrestColors.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFAA4C9C2C0F38D70045610A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC48E972C0FB195008FEFAC /* TabManager.swift in Sources */,
+				DFC48EBA2C108FB7008FEFAC /* FocusedValueKeys.swift in Sources */,
+				DFC48EA32C0FD1ED008FEFAC /* FocusableView.swift in Sources */,
+				DFAA4CB32C0F3BC60045610A /* CustomButtonStyle.swift in Sources */,
+				DFC48ECB2C10AD00008FEFAC /* FocusCookBookVideo.swift in Sources */,
+				DFAA4CA62C0F38D70045610A /* FocusSectionView.swift in Sources */,
+				DFC48EBC2C109012008FEFAC /* HogwartsHouses.swift in Sources */,
+				DFC48EAB2C0FD54E008FEFAC /* CenterView.swift in Sources */,
+				DFAA4CA42C0F38D70045610A /* TvFocusableApp.swift in Sources */,
+				DFC48EB82C108F6F008FEFAC /* FocusedValues+Extensions.swift in Sources */,
+				DFC48ED02C10B8B5008FEFAC /* ButtonType.swift in Sources */,
+				DFC48EAF2C0FDA7B008FEFAC /* BottomView.swift in Sources */,
+				DFC48E9C2C0FB2D5008FEFAC /* FocusedValueView.swift in Sources */,
+				DFC48EC32C1097DD008FEFAC /* BackgroundView.swift in Sources */,
+				DFC48EC82C10A86A008FEFAC /* HogwartsHouseVisuals.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DFAA4CAC2C0F38D80045610A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 17.5;
+			};
+			name = Debug;
+		};
+		DFAA4CAD2C0F38D80045610A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 17.5;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFAA4CAF2C0F38D80045610A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TvFocusable/Preview Content\"";
+				DEVELOPMENT_TEAM = 75AH2S52P3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TvFocusable/Info.plist;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Claire.TvFocusable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		DFAA4CB02C0F38D80045610A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TvFocusable/Preview Content\"";
+				DEVELOPMENT_TEAM = 75AH2S52P3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TvFocusable/Info.plist;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Claire.TvFocusable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFAA4C9B2C0F38D70045610A /* Build configuration list for PBXProject "TvFocusable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFAA4CAC2C0F38D80045610A /* Debug */,
+				DFAA4CAD2C0F38D80045610A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFAA4CAE2C0F38D80045610A /* Build configuration list for PBXNativeTarget "TvFocusable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFAA4CAF2C0F38D80045610A /* Debug */,
+				DFAA4CB02C0F38D80045610A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFAA4C982C0F38D70045610A /* Project object */;
+}
